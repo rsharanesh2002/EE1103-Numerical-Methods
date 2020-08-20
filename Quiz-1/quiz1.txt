@@ -1,0 +1,41 @@
+                                                                     
+                                               *********______QUIZ-1______**********    
+       
+                                                          GROUP   : 1J                                         
+
+NAME:SHARANESH R(EE19B116);SAKTHI HARISH D T(EE19B054);TMVS GANESH(EE19B124)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ANSWERS:(LINUX COMMANDS)
+
+1. ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n 25
+
+
+
+2.tail -n 30 filename.txt
+
+
+
+3.timeout 60 ping www.website.com> pingfilename.txt
+
+
+
+4. awk '{print $(NF-3) $(NF-2) $(NF-1)}' pingfilename.txt|sed '1d;s/icmp_seq=/  /;s/ttl=/  /;s/time=/  /' >newfile.txt
+
+
+
+5.awk 'BEGIN{x=0}{x+=$3;y+=$3*$3}END{print x/NR,sqrt(y/NR-(x/NR)*(x/NR))}' newfile.txt
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+OUTPUT:(C Program)
+
+    The differnce between the actual and expected mean and standard deviation
+
+    FORMAT: The difference between the actual mean and expected mean is : 0.027927
+            The difference between the actual standard deviation and expected deviation is : 0.028846
+ 
+    SAMPLE OUTPUT: The difference between the actual mean and expected mean is : 0.027927
+                   The difference between the actual standard deviation and expected deviation is : 0.028846
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
